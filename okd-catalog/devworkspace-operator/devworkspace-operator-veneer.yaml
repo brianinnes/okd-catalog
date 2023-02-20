@@ -1,0 +1,12 @@
+Schema: olm.semver
+GenerateMajorChannels: true
+GenerateMinorChannels: false
+fast:
+  Bundles:
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.19.0
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.18.1
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.18.0
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.17.0
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.16.0
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.15.3
+  - Image: quay.io/devfile/devworkspace-operator-bundle:v0.15.2

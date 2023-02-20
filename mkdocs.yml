@@ -1,0 +1,45 @@
+site_name: OKD Catalog
+site_url: https://brianinnes.github.io/okd-catalog
+site_author: Brian Innes
+repo_name: "homeLab"
+repo_url: https://github.com/brianinnes/okd-catalog
+site_dir: public
+edit_uri: edit/main/docs
+theme:
+    name: material
+    logo: images/BrianLogo.png
+    favicon: images/BrianLogo.png
+    palette:
+      scheme: brian
+      primary: brian blue
+      accent: brian light green
+    font:
+      text: Roboto
+      code: Roboto Mono
+    language: en
+    custom_dir: overrides
+    features:
+      - navigation.instant
+      - navigation.tracking
+use_directory_urls: true
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+markdown_extensions:
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.details
+extra_css:
+    - css/extra.css
+extra:
+  generator: false
+nav:
+  - Home: index.md

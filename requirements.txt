@@ -1,0 +1,6 @@
+# Do not use with Docker builds, only for local dev with mkdocs CLI
+mkdocs==1.4.2
+mkdocs-material==9.0.2
+mkdocs-minify-plugin==0.6.2
+mkdocs-redirects==1.2.0
+git+https://github.com/linkchecker/linkchecker@v10.2.1#egg=linkchecker
