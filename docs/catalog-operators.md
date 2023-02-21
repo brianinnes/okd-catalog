@@ -41,5 +41,5 @@ Getting a catalog working is the first stage, but to create a catalog to be **of
     - are there any legal limitations regarding use of RedHat/OpenShift names within the catalog?
 - what needs to be in place to support different versions of OKD?
     - we shouldn't back port to previous versions of OKD
-    - an install of a previous version of OKD should work (we shouldn't try to install the newest catalog of operators, but the catalog appropriate for the OKD versions
+    - an install of a previous version of OKD should work (we shouldn't try to install the newest catalog of operators, but the catalog appropriate for the OKD version)
     - we should start with 4.12 - not plan to support previous versions?
